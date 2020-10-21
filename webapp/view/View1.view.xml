@@ -1,0 +1,44 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="touchbase.demo.controller.View1">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content><Button text="navigate" press="onPress"/>
+				    <Panel id="__panel0">
+				        <content>
+				            <Table noDataText="Drop column list items here and columns in the area above" id="__table0">
+				                <items>
+				                    <ColumnListItem id="__item6">
+				                        <cells>
+				                            <Text text="Row 1 Cell 1" id="__text4"/>
+				                            <Text text="Row 1 Cell 2" id="__text5"/>
+				                            <Text text="Row 1 Cell 3" id="__text6"/></cells>
+				                    </ColumnListItem>
+				                    <ColumnListItem id="__item7">
+				                        <cells>
+				                            <Text text="Row 2 Cell 1" id="__text7"/>
+				                            <Text text="Row 2 Cell 2" id="__text8"/>
+				                            <Text text="Row 2 Cell 3" id="__text9"/></cells>
+				                    </ColumnListItem></items>
+				                <columns>
+				                    <Column id="__column0">
+				                        <header>
+				                            <Label text="Header 1" id="__label0"/>
+				                        </header>
+				                    </Column>
+				                    <Column id="__column1">
+				                        <header>
+				                            <Label text="Header 2" id="__label1"/>
+				                        </header>
+				                    </Column>
+				                    <Column id="__column2">
+				                        <header>
+				                            <Label text="Header 3" id="__label2"/>
+				                        </header>
+				                    </Column></columns></Table>
+				        </content>
+				    </Panel>			    
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
